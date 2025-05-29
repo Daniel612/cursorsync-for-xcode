@@ -14,8 +14,8 @@ An Xcode Source Editor Extension that helps you smoothly open the current file i
 
 ### Local Installation
 
-  1. Download the latest `.app` package.
-  2. Drag and drop it into your Applications folder.
+  1. Download the latest `.dmg` file.
+  2. Drap and drop CursorSync.app into your Applications folder.
 
 ## Usage
 
