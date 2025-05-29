@@ -3,18 +3,9 @@ on currentFilePath()
         set windowName to get name of window 1
         set fileName to my extractFilename(windowName)
         set activeDocument to document 1 whose name ends with fileName
-        if modified of activeDocument then
-            my saveFile()
-        end if
         path of activeDocument
     end tell
 end currentFilePath
-
-on saveFile()
-    tell application "System Events"
-        keystroke "s" using command down
-    end tell
-end saveFile
 
 -- AppleScript to extract a generic filename from a window title that follows the pattern:
 -- "prefix — Filename" or "prefix — Filename — Edited"

@@ -10,7 +10,8 @@ import Foundation
 class SharedStorage {
     static let shared = SharedStorage()
     lazy var userDefaults = {
-        guard let userDefaults = UserDefaults(suiteName: "dev.zhangguozheng.CursorSync.shared") else {
+        guard let name = Bundle.main.infoDictionary?["AppGroupSuiteName"] as? String,
+              let userDefaults = UserDefaults(suiteName: name) else {
             return UserDefaults()
         }
         return userDefaults

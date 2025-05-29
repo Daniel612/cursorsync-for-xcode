@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-let scriptVersion = "1.1.0"
+let scriptVersion = "1.0.1"
 
 class SettingsModel: ObservableObject {
     @CodableStorage(SharedStorage.Key.editorConfigs, store: SharedStorage.shared.userDefaults)
@@ -27,7 +27,7 @@ class SettingsModel: ObservableObject {
     var currentScriptVersion = ""
 
     @AppStorage(SharedStorage.Key.includeColumn, store: SharedStorage.shared.userDefaults)
-    var includeColumn: Bool = true
+    var includeColumn: Bool = false
 
     @AppStorage(SharedStorage.Key.selectedEditorConfigID, store: SharedStorage.shared.userDefaults)
     var selectedEditorConfigID: String = ""

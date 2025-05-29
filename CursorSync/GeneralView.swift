@@ -84,8 +84,17 @@ struct GeneralView: View {
                     }
                 }
                 
-                Section("Cursor") {
+                Section() {
                     Toggle("Include Column", isOn: settings.$includeColumn)
+                } header: {
+                    Text("Cursor")
+                } footer: {
+                    HStack {
+                        Text("Recommended to manually save the file before switching to another editor when using the column feature.")
+                            .font(.caption)
+                            .foregroundColor(.gray)
+                        Spacer()
+                    }
                 }
             }
             .formStyle(.grouped)

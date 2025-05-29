@@ -54,10 +54,10 @@ class GeneralViewModel: SettingsViewModel {
     
     func saveAppleScript() {
         // 1. Get Bundle Identifier (still useful for default path)
-        guard let bundleIdentifier = Bundle.main.bundleIdentifier else {
-            print("Failed to get Bundle Identifier.")
-            return
-        }
+//        guard let bundleIdentifier = Bundle.main.bundleIdentifier else {
+//            print("Failed to get Bundle Identifier.")
+//            return
+//        }
 
         // 2. Get Default Application Scripts Directory
         let fileManager = FileManager.default
