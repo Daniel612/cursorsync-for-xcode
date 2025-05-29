@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8D7D7D2DC9BD0B00C0E053 /* CursorSyncExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2B8D7D6E2DC9BD0A00C0E053 /* CursorSyncExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2BA5CAAC2DCA3AF800AF1120 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8D7D702DC9BD0B00C0E053 /* Cocoa.framework */; };
+		2BA5CAAF2DCA3AFA00AF1120 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8D7D722DC9BD0B00C0E053 /* XcodeKit.framework */; };
+		2BA5CAB02DCA3AFA00AF1120 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8D7D722DC9BD0B00C0E053 /* XcodeKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B8D7D7B2DC9BD0B00C0E053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8D7D502DC9BCE400C0E053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8D7D6D2DC9BD0A00C0E053;
+			remoteInfo = CursorSyncExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B8D7D822DC9BD0B00C0E053 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B8D7D7D2DC9BD0B00C0E053 /* CursorSyncExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA5CAAE2DCA3AF800AF1120 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2BA5CAB02DCA3AFA00AF1120 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B8D7D582DC9BCE400C0E053 /* CursorSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursorSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8D7D6E2DC9BD0A00C0E053 /* CursorSyncExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CursorSyncExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8D7D702DC9BD0B00C0E053 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2B8D7D722DC9BD0B00C0E053 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2B6971D62DD3399D003FD729 /* Exceptions for "CursorSync" folder in "CursorSyncExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Shared/CodableStorage.swift,
+				Shared/SettingsModel.swift,
+				Shared/SharedStorage.swift,
+			);
+			target = 2B8D7D6D2DC9BD0A00C0E053 /* CursorSyncExtension */;
+		};
+		2B8D7D7E2DC9BD0B00C0E053 /* Exceptions for "CursorSyncExtension" folder in "CursorSyncExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2B8D7D6D2DC9BD0A00C0E053 /* CursorSyncExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2B8D7D5A2DC9BCE400C0E053 /* CursorSync */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B6971D62DD3399D003FD729 /* Exceptions for "CursorSync" folder in "CursorSyncExtension" target */,
+			);
+			path = CursorSync;
+			sourceTree = "<group>";
+		};
+		2B8D7D742DC9BD0B00C0E053 /* CursorSyncExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B8D7D7E2DC9BD0B00C0E053 /* Exceptions for "CursorSyncExtension" folder in "CursorSyncExtension" target */,
+			);
+			path = CursorSyncExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8D7D552DC9BCE400C0E053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8D7D6B2DC9BD0A00C0E053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA5CAAC2DCA3AF800AF1120 /* Cocoa.framework in Frameworks */,
+				2BA5CAAF2DCA3AFA00AF1120 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8D7D4F2DC9BCE400C0E053 = {
+			isa = PBXGroup;
+			children = (
+				2B8D7D5A2DC9BCE400C0E053 /* CursorSync */,
+				2B8D7D742DC9BD0B00C0E053 /* CursorSyncExtension */,
+				2B8D7D6F2DC9BD0B00C0E053 /* Frameworks */,
+				2B8D7D592DC9BCE400C0E053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8D7D592DC9BCE400C0E053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8D7D582DC9BCE400C0E053 /* CursorSync.app */,
+				2B8D7D6E2DC9BD0A00C0E053 /* CursorSyncExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8D7D6F2DC9BD0B00C0E053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B8D7D702DC9BD0B00C0E053 /* Cocoa.framework */,
+				2B8D7D722DC9BD0B00C0E053 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8D7D572DC9BCE400C0E053 /* CursorSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8D7D672DC9BCE500C0E053 /* Build configuration list for PBXNativeTarget "CursorSync" */;
+			buildPhases = (
+				2B8D7D542DC9BCE400C0E053 /* Sources */,
+				2B8D7D552DC9BCE400C0E053 /* Frameworks */,
+				2B8D7D562DC9BCE400C0E053 /* Resources */,
+				2B8D7D822DC9BD0B00C0E053 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8D7D7C2DC9BD0B00C0E053 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B8D7D5A2DC9BCE400C0E053 /* CursorSync */,
+			);
+			name = CursorSync;
+			packageProductDependencies = (
+			);
+			productName = CursorSync;
+			productReference = 2B8D7D582DC9BCE400C0E053 /* CursorSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B8D7D6D2DC9BD0A00C0E053 /* CursorSyncExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8D7D7F2DC9BD0B00C0E053 /* Build configuration list for PBXNativeTarget "CursorSyncExtension" */;
+			buildPhases = (
+				2B8D7D6A2DC9BD0A00C0E053 /* Sources */,
+				2B8D7D6B2DC9BD0A00C0E053 /* Frameworks */,
+				2B8D7D6C2DC9BD0A00C0E053 /* Resources */,
+				2BA5CAAE2DCA3AF800AF1120 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2B8D7D742DC9BD0B00C0E053 /* CursorSyncExtension */,
+			);
+			name = CursorSyncExtension;
+			packageProductDependencies = (
+			);
+			productName = CursorSyncExtension;
+			productReference = 2B8D7D6E2DC9BD0A00C0E053 /* CursorSyncExtension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8D7D502DC9BCE400C0E053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					2B8D7D572DC9BCE400C0E053 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					2B8D7D6D2DC9BD0A00C0E053 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B8D7D532DC9BCE400C0E053 /* Build configuration list for PBXProject "CursorSync" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B8D7D4F2DC9BCE400C0E053;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2B8D7D592DC9BCE400C0E053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8D7D572DC9BCE400C0E053 /* CursorSync */,
+				2B8D7D6D2DC9BD0A00C0E053 /* CursorSyncExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8D7D562DC9BCE400C0E053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8D7D6C2DC9BD0A00C0E053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8D7D542DC9BCE400C0E053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8D7D6A2DC9BD0A00C0E053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B8D7D7C2DC9BD0B00C0E053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8D7D6D2DC9BD0A00C0E053 /* CursorSyncExtension */;
+			targetProxy = 2B8D7D7B2DC9BD0B00C0E053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B8D7D652DC9BCE500C0E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B8D7D662DC9BCE500C0E053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2B8D7D682DC9BCE500C0E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CursorSync/CursorSync.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CursorSync/Preview Content\"";
+				DEVELOPMENT_TEAM = VKTY636NZB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cursor Sync";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zhangguozheng.CursorSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B8D7D692DC9BCE500C0E053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CursorSync/CursorSync.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CursorSync/Preview Content\"";
+				DEVELOPMENT_TEAM = VKTY636NZB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cursor Sync";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zhangguozheng.CursorSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2B8D7D802DC9BD0B00C0E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CursorSyncExtension/CursorSyncExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKTY636NZB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CursorSyncExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cursor Sync";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zhangguozheng.CursorSync.CursorSyncExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B8D7D812DC9BD0B00C0E053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CursorSyncExtension/CursorSyncExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VKTY636NZB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CursorSyncExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cursor Sync";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zhangguozheng.CursorSync.CursorSyncExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8D7D532DC9BCE400C0E053 /* Build configuration list for PBXProject "CursorSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8D7D652DC9BCE500C0E053 /* Debug */,
+				2B8D7D662DC9BCE500C0E053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8D7D672DC9BCE500C0E053 /* Build configuration list for PBXNativeTarget "CursorSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8D7D682DC9BCE500C0E053 /* Debug */,
+				2B8D7D692DC9BCE500C0E053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8D7D7F2DC9BD0B00C0E053 /* Build configuration list for PBXNativeTarget "CursorSyncExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8D7D802DC9BD0B00C0E053 /* Debug */,
+				2B8D7D812DC9BD0B00C0E053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8D7D502DC9BCE400C0E053 /* Project object */;
+}
