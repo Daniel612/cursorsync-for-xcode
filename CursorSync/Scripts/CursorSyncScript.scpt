@@ -1,8 +1,8 @@
 on currentFilePath()
     tell application "TARGET_APPLICATION_NAME"
-        set windowName to get name of window 1
-        set fileName to my extractFilename(windowName)
-        set activeDocument to document 1 whose name ends with fileName
+		set windowName to get name of first window
+		set fileName to my extractFilename(windowName)
+		set activeDocument to first document whose name is fileName
         path of activeDocument
     end tell
 end currentFilePath

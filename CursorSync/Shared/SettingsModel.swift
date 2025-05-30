@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-let scriptVersion = "1.0.1"
+let scriptVersion = "1.0.2"
 
 class SettingsModel: ObservableObject {
     @CodableStorage(SharedStorage.Key.editorConfigs, store: SharedStorage.shared.userDefaults)

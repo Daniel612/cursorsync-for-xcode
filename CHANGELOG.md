@@ -4,6 +4,10 @@ All notable changes to the "cursorsync-for-vscode" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.2] - 2025-05-30
+
+### Fixed
+- Fixed file name matching from "ends with" to an exact match.
 
 ## [1.0.1] - 2025-05-29
 
